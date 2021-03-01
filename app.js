@@ -6,7 +6,7 @@ const fs = require("fs"); // Used to access the immediate filesystem of an appli
 const { v4: uuidv4 } = require('uuid'); // Used to generate a unique random ID
 // Insert error lib here
 const { console } = require("console") // Console Library
-const app = express();
+const app = express(); // Create an express application
 
 // uuidv4(); // -> '6c84fb90-12c4-11e1-840d-7b25c5ee775a' 
 
@@ -19,7 +19,7 @@ srv.listen(0, function() {
 (function () { // Main Function
  "use strict"; // Prevents program from using uninitialized and undeclared variables
   app.use(express.json());
-  app.use(express.urlencoded({extended: false});
-          
+  app.use(express.urlencoded({extended: false}));
+  
   
 }());
