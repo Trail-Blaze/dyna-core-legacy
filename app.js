@@ -42,6 +42,7 @@ const authors = "Immanuel Garcia";
  "use strict"; // Prevents program from using uninitialized and undeclared variables
   app.use(express.json());
   app.use(express.urlencoded({extended: false}));
+  app.set("etag", false);	
 
   if (REQ_LOGGING) {
     // https://expressjs.com/en/guide/using-middleware.html#middleware.application
@@ -54,6 +55,9 @@ const authors = "Immanuel Garcia";
   // https://expressjs.com/en/starter/static-files.html
   
   app.use("/", express.static("public")); // Set serverdir to rootdir and create an HTTP server that serves static files
+	//fs.readdirSync(`${__dirname}/Services`).forEach(route => {
+		//require(`${__dirname}/Services/${route}`)(app);
+//})
   app.use((req, res, next) => { // req and res are never used in this scope
       next(new ApiException(errors.com.epicgames.common.not_found)); // IDK
   });
