@@ -20,7 +20,7 @@ const express = require("express"); // Used to activate the NodeJs express appli
 const getPort = require("get-port"); // Used to listen for an empty random port
 const fs = require("fs"); // Used to access the immediate filesystem of an application.
 const { v4: uuidv4 } = require('uuid'); // Used to generate a unique random ID
-// Insert error lib here
+const errors = require("./structs/errors"); // Errors library from Neonite
 const { console } = require("console") // Console Library
 const app = express(); // Create an express application
 
