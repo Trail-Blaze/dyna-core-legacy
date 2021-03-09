@@ -1,1 +1,1 @@
-const theme = require('../Neolib/CurrentTheme');
+const theme = require('../ThemePacks/CurrentTheme');
