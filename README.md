@@ -1,5 +1,5 @@
 # Dynamite Core Backend
-BlazeFN backend, the core of Blaze.
+TrailBlaze backend, the core of Blaze.
 
 
 ## To Run
