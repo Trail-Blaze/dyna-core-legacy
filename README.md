@@ -1,4 +1,9 @@
-# Dynamite Core Backend
+# Dynamite Core Backend [ 📦 ARCHIVED ]
+Legacy backend. Direct successor of the AtlasFN backend.
+<br/>
+<br/>
+Available for historical purposes.
+<br/>
 TrailBlaze backend, the core of Blaze.
 
 
