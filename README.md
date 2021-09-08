@@ -1,8 +1,12 @@
 # Dynamite Core Backend [ 📦 ARCHIVED ]
-Legacy backend. Direct successor of the AtlasFN backend.
+`-----------------------------------------------DISCLAIMER START---------------------------------------`<br/><br/>
+Legacy backend. Direct successor of the AtlasFN backend and direct predecessor of Dynamite Beta.
 <br/>
 <br/>
-Available for historical purposes.
+Available for historical purposes. The last version to be released of this backend was `v1.30.25`. <br/>
+The code has been unchanged since then which is why this repository has been put up for archival.<br/><br/>
+`-----------------------------------------------DISCLAIMER END-----------------------------------------`
+<br/>
 <br/>
 TrailBlaze backend, the core of Blaze.
 
